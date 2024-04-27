@@ -43,8 +43,8 @@ function  FormFeedback({openForm}) {
   <span className={styles.closeIcon} onClick={() => openForm()}></span>
 </div>
     <section id='home'>
-    <h1 className={styles.h1}>ШВИДКИЙ ЗВ'ЯЗОК З НАМИ!
-ЗАЛИШТЕ ЗАПИТ І МИ З ВАМИ ЗВ'ЯЖЕМОСЬ!</h1>
+    <h1 className={styles.h1}>ШВИДКИЙ ЗВ&apos;ЯЗОК З НАМИ!
+ЗАЛИШТЕ ЗАПИТ І МИ З ВАМИ ЗВ&apos;ЯЖЕМОСЬ!</h1>
     </section>
     <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
       <div className={styles.item}>
