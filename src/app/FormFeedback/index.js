@@ -49,7 +49,7 @@ function  FormFeedback({openForm}) {
     <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
       <div className={styles.item}>
         <label htmlFor="name"></label>
-        <input placeholder=" прізвище ім'я" type="text" id="name" {...register('name', { required: true })} />
+        <input placeholder=" прізвище ім&apos;я" type="text" id="name" {...register('name', { required: true })} />
         {errors.name && <span style={{color:"red"}} >всі поля мають бути заповнені</span>}
       </div>
       <div className={styles.item}>
