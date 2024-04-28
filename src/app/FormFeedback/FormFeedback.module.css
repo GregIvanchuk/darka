@@ -94,6 +94,10 @@
     color: black;
 }
 
+.button:hover{
+    background-color: rgb(255, 94, 0);
+}
+
 .closeButton {
     position: absolute;
     right: 1rem;
