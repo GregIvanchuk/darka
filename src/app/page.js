@@ -95,9 +95,20 @@ export default function Home() {
           </ul>
         </div>
         <Image className={styles.im1} width={400} height={400} src='/imEnd.jpg' alt='img1' />
-        <button className={styles.button} onClick={() => openForm()}>
+        <div className={styles.priceContainer}>
+          <div className={styles.priceItem}>
+            <p className={styles.oldPriceTitle}>стара ціна</p>
+            <h2 className={styles.oldPrice}>600 грн.</h2>
+          </div>
+          <div className={styles.priceItem}>
+            <p className={styles.newPriceTitle}>ціна зі знижкою</p>
+            <h2 className={styles.newPrice}>420 грн.</h2>
+          </div>
+        </div>
+        <button className={styles.button2} onClick={() => openForm()}>
           Придбати зараз
         </button>
+        
       </div>
     </main>
   );

@@ -89,7 +89,7 @@
 }
 .priceContainer{
   width: 100%;
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -162,11 +162,28 @@
   border: none;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 
 }
 .button {
+  border: 3px solid transparent; /* Початковий стиль бордера */
+  animation: pulse-border 1s infinite alternate; /* Анімація бордера */
+}
+.button2{
+  width: 90%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color:  rgb(255, 172, 63);
+  color: white;
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 30px;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+
+}
+.button2 {
   border: 3px solid transparent; /* Початковий стиль бордера */
   animation: pulse-border 1s infinite alternate; /* Анімація бордера */
 }
