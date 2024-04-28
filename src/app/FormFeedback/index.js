@@ -12,7 +12,7 @@ function  FormFeedback({openForm}) {
     axios.post("/api/blogs", data)
     .then((response) => {
       if (response.status === 200) {
-        alert('Form submitted successfully!');
+        alert('Форму успішно заповнено!');
         setLoading(false);
         openForm()
       } else {
@@ -22,7 +22,7 @@ function  FormFeedback({openForm}) {
     .catch((error) => {
       console.error(error);
       setLoading(false);
-      alert('Form submission failed.');
+      alert('Не вдалося надіслати форму.');
     });
   };
 
