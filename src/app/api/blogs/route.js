@@ -11,7 +11,7 @@ export async function POST(req, res) {
   const { name, phone, email, town, novaPoshtaBranch } = await req.json();
   
   const telegramMessage = `
-    Name: ${name}
+     Name: ${name}
     Phone: ${phone}
     Email: ${email}
     Town: ${town}
