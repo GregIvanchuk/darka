@@ -11,11 +11,11 @@ export async function POST(req, res) {
   const { name, phone, email, town, novaPoshtaBranch } = await req.json();
   
   const telegramMessage = `
-     Name: ${name}
-    Phone: ${phone}
-    Email: ${email}
-    Town: ${town}
-    Nova Poshta Branch: ${novaPoshtaBranch}
+Name: ${name}
+Phone: ${phone}
+Email: ${email}
+Town: ${town}
+Nova Poshta Branch: ${novaPoshtaBranch}
   `;
 
   try {
