@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Нічник 3D світильник місяць',
-  description: 'Це чудовий подарунок для будь-якого, хто цінує красу природи та мріє про подорожі у віддалені космічні простори.',
+  title: 'Зволожувач повітря, нічник',
+  description: 'Зволожувач Гриб принесе в оселю затишок і забезпечить природне зволоження повітря.',
 }
 
 export default function RootLayout({ children }) {
